@@ -6,13 +6,13 @@
 
 <P><?php echo $_POST["original"]; ?></P>
 
-<IMG SRC="/Items/<?php echo $_POST["original"]; ?>.png"></IMG></P>
+<IMG SRC="Items/<?php echo $_POST["original"]; ?>.png"></IMG></P>
 
 <P><B>To Data Value:</B></P>
 
 <P><?php echo $_POST["convertto"]; ?></P>
 
-<P><IMG SRC="/Items/<?php echo $_POST["convertto"]; ?>.png"></IMG></P>
+<P><IMG SRC="Items/<?php echo $_POST["convertto"]; ?>.png"></IMG></P>
 
 <P>
 
