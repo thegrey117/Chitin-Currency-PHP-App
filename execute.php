@@ -1,13 +1,18 @@
 <html>
-<body Align="center">
+<body background="background.png" Align="center">
+<font color="#FFFFFF">
 
 <P> "<?php echo $_POST["PName"]; ?>" <B>wishes to convert</B> "<?php echo $_POST["ItemCount"]; ?>" <B>of Data Value:</B></P>
 
-<P><?php echo $_POST["original"]; ?>      <IMG SRC="<?php echo $_POST["original"]; ?>.png"></IMG></P>
+<P><?php echo $_POST["original"]; ?></P>
+
+<IMG SRC="/Items/<?php echo $_POST["original"]; ?>.png"></IMG></P>
 
 <P><B>To Data Value:</B></P>
 
-<P><?php echo $_POST["convertto"]; ?>      <IMG SRC="<?php echo $_POST["convertto"]; ?>.png"></IMG></P>
+<P><?php echo $_POST["convertto"]; ?></P>
+
+<P><IMG SRC="/Items/<?php echo $_POST["convertto"]; ?>.png"></IMG></P>
 
 <P>
 
@@ -391,5 +396,6 @@ break;
 ?>
 
 </P>
+</font>
 </body>
 </html>
